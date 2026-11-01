@@ -1,21 +1,21 @@
 // Configuração da página que revela a oferta da Super Black Friday. É o arquivo que se edita à mão antes de publicar.
 window.CONFIG = {
   // Preço da Super Black Friday.
-  PRECO: 147,
-  // Esta versão (oferta-black-147): 2 anos, sem acesso extra, para quem viu o VIP a R$ 147 (Pedro, 1/11/2026). A âncora é a soma dos valores × ANOS × ACESSOS.
+  PRECO: 247,
+  // Esta versão (oferta-black-147): para quem viu o VIP a R$ 147. Tudo por R$ 247, por 2 anos, sem acesso extra (Pedro, 1/11/2026). A âncora é a soma dos valores × ANOS × ACESSOS.
   ANOS: 2,
   ACESSOS: 1,
-  // Parcela no cartão: a do VIP de R$ 147 no Hub.la (base/central-de-voos/negocio.md).
-  PARCELA: "12x de R$ 14,76",
-  // Preço que o VIP "estava" para este público.
+  // Parcela: o Hub.la ainda não tem a de R$ 247 na base. Sem parcela confirmada, a página mostra "à vista ou em até 12x no cartão".
+  PARCELA: null,
+  // Quanto "só o VIP estava" para este público.
   PRECO_VIP_ANO: 147,
 
   // Horário das vagas, todo dia, no horário de Brasília.
-  // Antes de ABRE: "as vagas ainda estão fechadas, abrem hoje às 19h" com a contagem. Entre ABRE e FECHA: "vagas abertas, fecham em".
+  // Antes de ABRE: "as vagas ainda estão fechadas, abrem hoje às 12h" com a contagem. Entre ABRE e FECHA: "vagas abertas, fecham em".
   // Depois de FECHA, volta a contagem para as 19h, sempre como se fosse a primeira abertura (sem "encerradas" nem "nova abertura").
-  VAGAS: { ABRE: "19:00", FECHA: "00:10" },
+  VAGAS: { ABRE: "12:00", FECHA: "00:10" },
   TEXTOS: {
-    antes: "O link pra garantir a sua vaga chega no seu grupo do WhatsApp às 19h.",
+    antes: "O link pra garantir a sua vaga chega no seu grupo do WhatsApp às 12h.",
     aberto: "Garanta a sua pelo link que chegou no seu grupo do WhatsApp.",
   },
   // A página não tem botão (pedido do Pedro, 31/10/2026). Se um dia precisar, true + CHECKOUT mostra o botão só com as vagas abertas.
@@ -24,7 +24,7 @@ window.CONFIG = {
 
   // Pilha de valor: "valor" é o preço de 1 ano de cada entrega, para UM acesso.
   // A âncora da página é a soma × 2 anos × 2 acessos (pedido do Pedro, 31/10/2026).
-  // PROPOSTA (Pedro pediu âncora um pouco menor que a da oferta-black-tr): soma R$ 1.229 por ano, × 2 anos = R$ 2.458.
+  // PROPOSTA (âncora menor que a da oferta-black-tr): soma R$ 1.229 por ano, × 2 anos = R$ 2.458.
   PRINCIPAIS: [
     { nome: "Comunidade VIP no WhatsApp", desc: "Grupos separados por região, com mais de 1.000 promoções por semana e todas as datas disponíveis, saindo de todo o Brasil para o Brasil e o mundo.", valor: 147, oficial: false },
     { tag: "Novidade", nome: "Plataforma Central de Voos", desc: "Tudo da Central no seu celular: busca personalizada entre todas as promoções ativas e monitoramento das suas passagens com IA.", valor: 297, oficial: false },
