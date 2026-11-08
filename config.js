@@ -8,7 +8,7 @@ window.CONFIG = {
   // Parcela: a do checkout de R$ 247 no Hub.la (conferida em 02/11/2026: 12x 25,10).
   PARCELA: "12x de R$ 25,10",
   // Quanto "só o VIP estava" para este público.
-  PRECO_VIP_ANO: 247,
+  PRECO_VIP_ANO: 397,
 
   // Horário das vagas, todo dia, no horário de Brasília.
   // Antes de ABRE: "as vagas ainda estão fechadas, abrem hoje às 12h" com a contagem. Entre ABRE e FECHA: "vagas abertas, fecham em".
