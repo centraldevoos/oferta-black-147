@@ -5,8 +5,8 @@ window.CONFIG = {
   // Esta versão (centraldevoos.com/black-exclusiva), a partir de 02/11/2026 à noite: V3 D15/D19 (degrau de 247). Só o VIP estava R$ 247 por ano; tudo por R$ 247, por 2 anos.
   ANOS: 2,
   ACESSOS: 1,
-  // Parcela: a do checkout de R$ 247 no Hub.la (conferida em 02/11/2026: 12x 25,10).
-  PARCELA: "12x de R$ 25,10",
+  // Parcela: a do checkout de R$ 247 no Hub.la (conferida em 02/11/2026: 12x 25,38).
+  PARCELA: "12x de R$ 25,38",
   // Quanto "só o VIP estava" para este público.
   PRECO_VIP_ANO: 397,
 
